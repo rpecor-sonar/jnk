@@ -11,3 +11,15 @@ public class HelloWorld {
   }
 
 }
+
+public class HelloWorld2 {
+
+  void sayHello() {
+    System.out.println("Hello World 2!");
+  }
+
+  void notCovered() {
+    System.out.println("This method is not covered by unit tests");
+  }
+
+}
